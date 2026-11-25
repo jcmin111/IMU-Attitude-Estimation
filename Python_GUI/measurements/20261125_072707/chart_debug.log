@@ -1,0 +1,15 @@
+FILT C count=1 page=0 target=0.0 yaw=-116.61 home=-116.61 measured=0.00 plotted=0 latest=None
+FILT M count=1 page=0 target=0.0 yaw=-139.58 home=-139.58 measured=0.00 plotted=0 latest=None
+FILT A count=1 page=0 target=0.0 yaw=-117.86 home=-117.86 measured=0.00 plotted=0 latest=None
+FILT E count=1 page=0 target=0.0 yaw=-128.33 home=-128.33 measured=0.00 plotted=0 latest=None
+FILT C count=50 page=2 target=0.0 yaw=55.86 home=-116.61 measured=0.00 plotted=0 latest=None
+FILT M count=50 page=2 target=0.0 yaw=30.46 home=-139.58 measured=0.00 plotted=0 latest=None
+FILT A count=50 page=2 target=0.0 yaw=54.40 home=-117.86 measured=0.00 plotted=0 latest=None
+FILT E count=50 page=2 target=0.0 yaw=40.83 home=-128.33 measured=0.00 plotted=0 latest=None
+FILT C count=200 page=5 target=0.0 yaw=44.63 home=-116.61 measured=0.00 plotted=0 latest=None
+FILT M count=200 page=5 target=0.0 yaw=18.78 home=-139.58 measured=0.00 plotted=0 latest=None
+FILT A count=200 page=5 target=0.0 yaw=42.56 home=-117.86 measured=0.00 plotted=0 latest=None
+FILT E count=200 page=5 target=0.0 yaw=26.90 home=-128.33 measured=0.00 plotted=0 latest=None
+HOME_SYNC ZERO_SENT {'counts': {'C': 209, 'M': 209, 'A': 209, 'E': 209}}
+HOME_SYNC ACK_ZERO {'counts': {'C': 209, 'M': 209, 'A': 209, 'E': 209}}
+HOME_SYNC FAILED_NO_FRESH_STREAM {'fresh': True, 'magnetic': False, 'counts': {'C': 277, 'M': 277, 'A': 277, 'E': 277}}

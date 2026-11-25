@@ -1,0 +1,241 @@
+FILT C count=1 page=0 target=0.0 yaw=46.29 home=46.29 measured=0.00 plotted=0 latest=None
+FILT M count=1 page=0 target=0.0 yaw=45.64 home=45.64 measured=0.00 plotted=0 latest=None
+FILT A count=1 page=0 target=0.0 yaw=45.93 home=45.93 measured=0.00 plotted=0 latest=None
+FILT E count=1 page=0 target=0.0 yaw=45.32 home=45.32 measured=0.00 plotted=0 latest=None
+FILT C count=50 page=2 target=0.0 yaw=54.22 home=46.29 measured=0.00 plotted=0 latest=None
+FILT M count=50 page=2 target=0.0 yaw=53.97 home=45.64 measured=0.00 plotted=0 latest=None
+FILT A count=50 page=2 target=0.0 yaw=56.61 home=45.93 measured=0.00 plotted=0 latest=None
+FILT E count=50 page=2 target=0.0 yaw=60.07 home=45.32 measured=0.00 plotted=0 latest=None
+FILT C count=200 page=5 target=0.0 yaw=46.28 home=46.29 measured=0.00 plotted=0 latest=None
+FILT M count=200 page=5 target=0.0 yaw=51.83 home=45.64 measured=0.00 plotted=0 latest=None
+FILT A count=200 page=5 target=0.0 yaw=44.54 home=45.93 measured=0.00 plotted=0 latest=None
+FILT E count=200 page=5 target=0.0 yaw=37.89 home=45.32 measured=0.00 plotted=0 latest=None
+HOME_SYNC ZERO_SENT {'counts': {'C': 218, 'M': 218, 'A': 218, 'E': 218}}
+HOME_SYNC ACK_ZERO {'counts': {'C': 218, 'M': 218, 'A': 218, 'E': 218}}
+HOME_SYNC HOME_REFERENCE_SNAPSHOT {'yaw': {'C': 42.54, 'M': 42.38, 'A': 42.23, 'E': 42.57}, 'magnetic': 358.8513853904282, 'filter_counts': {'C': 225, 'M': 225, 'A': 225, 'E': 225}}
+TARGET_CHANGE source=home_calibration page=6 previous=0.0 target=0.0
+HOME_SYNC COMMITTED {'yaw': {'C': 42.54, 'M': 42.38, 'A': 42.23, 'E': 42.57}, 'magnetic_home': 358.8513853904282, 'attempts': 1}
+AXIS_CHECK fid=C goal=359.504 filter=1.195 normal_diff=1.691 reverse_diff=0.699 home_yaw=42.54 current_yaw=39.990 axis=quaternion_signed_0_360 raw_mag=(-58.949999999999996, -63.599999999999994, 54.9) mag_residual=37.221
+REFERENCE fid=C page=6 lut_absolute=358.355 lut_home=358.851 goal=359.504 filter_relative=1.195 angular_difference=1.691 error_360_percent=0.4698 mag_residual=37.221 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=359.504 filter=1.327 normal_diff=1.823 reverse_diff=0.831 home_yaw=42.38 current_yaw=39.310 axis=quaternion_signed_0_360 raw_mag=(-58.949999999999996, -63.599999999999994, 54.9) mag_residual=37.221
+REFERENCE fid=M page=6 lut_absolute=358.355 lut_home=358.851 goal=359.504 filter_relative=1.327 angular_difference=1.823 error_360_percent=0.5064 mag_residual=37.221 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=359.504 filter=1.239 normal_diff=1.735 reverse_diff=0.743 home_yaw=42.23 current_yaw=39.430 axis=quaternion_signed_0_360 raw_mag=(-58.949999999999996, -63.599999999999994, 54.9) mag_residual=37.221
+REFERENCE fid=A page=6 lut_absolute=358.355 lut_home=358.851 goal=359.504 filter_relative=1.239 angular_difference=1.735 error_360_percent=0.4820 mag_residual=37.221 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=359.504 filter=1.172 normal_diff=1.668 reverse_diff=0.676 home_yaw=42.57 current_yaw=40.000 axis=quaternion_signed_0_360 raw_mag=(-58.949999999999996, -63.599999999999994, 54.9) mag_residual=37.221
+REFERENCE fid=E page=6 lut_absolute=358.355 lut_home=358.851 goal=359.504 filter_relative=1.172 angular_difference=1.668 error_360_percent=0.4634 mag_residual=37.221 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=359.801 filter=0.637 normal_diff=0.836 reverse_diff=0.438 home_yaw=42.54 current_yaw=42.490 axis=quaternion_signed_0_360 raw_mag=(-58.8, -63.3, 54.75) mag_residual=38.639
+AXIS_CHECK fid=M goal=359.801 filter=0.822 normal_diff=1.021 reverse_diff=0.623 home_yaw=42.38 current_yaw=41.440 axis=quaternion_signed_0_360 raw_mag=(-58.8, -63.3, 54.75) mag_residual=38.639
+AXIS_CHECK fid=A goal=359.801 filter=0.720 normal_diff=0.919 reverse_diff=0.521 home_yaw=42.23 current_yaw=41.720 axis=quaternion_signed_0_360 raw_mag=(-58.8, -63.3, 54.75) mag_residual=38.639
+AXIS_CHECK fid=E goal=359.801 filter=0.816 normal_diff=1.015 reverse_diff=0.617 home_yaw=42.57 current_yaw=41.670 axis=quaternion_signed_0_360 raw_mag=(-58.8, -63.3, 54.75) mag_residual=38.639
+AXIS_CHECK fid=C goal=28.710 filter=26.679 normal_diff=2.031 reverse_diff=55.389 home_yaw=42.54 current_yaw=-126.020 axis=quaternion_signed_0_360 raw_mag=(-48.9, -65.25, 36.3) mag_residual=45.325
+REFERENCE fid=C page=6 lut_absolute=27.561 lut_home=358.851 goal=28.710 filter_relative=26.679 angular_difference=2.031 error_360_percent=0.5641 mag_residual=45.325 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=28.710 filter=25.751 normal_diff=2.959 reverse_diff=54.461 home_yaw=42.38 current_yaw=-126.010 axis=quaternion_signed_0_360 raw_mag=(-48.9, -65.25, 36.3) mag_residual=45.325
+REFERENCE fid=M page=6 lut_absolute=27.561 lut_home=358.851 goal=28.710 filter_relative=25.751 angular_difference=2.959 error_360_percent=0.8220 mag_residual=45.325 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=28.710 filter=26.704 normal_diff=2.006 reverse_diff=55.414 home_yaw=42.23 current_yaw=-125.920 axis=quaternion_signed_0_360 raw_mag=(-48.9, -65.25, 36.3) mag_residual=45.325
+REFERENCE fid=A page=6 lut_absolute=27.561 lut_home=358.851 goal=28.710 filter_relative=26.704 angular_difference=2.006 error_360_percent=0.5571 mag_residual=45.325 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=28.710 filter=25.897 normal_diff=2.813 reverse_diff=54.607 home_yaw=42.57 current_yaw=-122.810 axis=quaternion_signed_0_360 raw_mag=(-48.9, -65.25, 36.3) mag_residual=45.325
+REFERENCE fid=E page=6 lut_absolute=27.561 lut_home=358.851 goal=28.710 filter_relative=25.897 angular_difference=2.813 error_360_percent=0.7814 mag_residual=45.325 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=29.357 filter=26.905 normal_diff=2.452 reverse_diff=56.262 home_yaw=42.54 current_yaw=-125.960 axis=quaternion_signed_0_360 raw_mag=(-49.05, -66.14999999999999, 35.699999999999996) mag_residual=38.825
+AXIS_CHECK fid=M goal=29.357 filter=24.081 normal_diff=5.277 reverse_diff=53.438 home_yaw=42.38 current_yaw=-126.060 axis=quaternion_signed_0_360 raw_mag=(-49.05, -66.14999999999999, 35.699999999999996) mag_residual=38.825
+AXIS_CHECK fid=A goal=29.357 filter=26.867 normal_diff=2.490 reverse_diff=56.224 home_yaw=42.23 current_yaw=-126.020 axis=quaternion_signed_0_360 raw_mag=(-49.05, -66.14999999999999, 35.699999999999996) mag_residual=38.825
+AXIS_CHECK fid=E goal=29.357 filter=26.026 normal_diff=3.332 reverse_diff=55.383 home_yaw=42.57 current_yaw=-122.750 axis=quaternion_signed_0_360 raw_mag=(-49.05, -66.14999999999999, 35.699999999999996) mag_residual=38.825
+AXIS_CHECK fid=C goal=29.027 filter=26.973 normal_diff=2.054 reverse_diff=55.999 home_yaw=42.54 current_yaw=-126.260 axis=quaternion_signed_0_360 raw_mag=(-48.0, -66.14999999999999, 36.449999999999996) mag_residual=42.157
+REFERENCE fid=C page=6 lut_absolute=27.878 lut_home=358.851 goal=29.027 filter_relative=26.973 angular_difference=2.054 error_360_percent=0.5706 mag_residual=42.157 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=29.027 filter=22.164 normal_diff=6.863 reverse_diff=51.190 home_yaw=42.38 current_yaw=-127.810 axis=quaternion_signed_0_360 raw_mag=(-48.0, -66.14999999999999, 36.449999999999996) mag_residual=42.157
+REFERENCE fid=M page=6 lut_absolute=27.878 lut_home=358.851 goal=29.027 filter_relative=22.164 angular_difference=6.863 error_360_percent=1.9065 mag_residual=42.157 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=29.027 filter=26.937 normal_diff=2.090 reverse_diff=55.964 home_yaw=42.23 current_yaw=-126.160 axis=quaternion_signed_0_360 raw_mag=(-48.0, -66.14999999999999, 36.449999999999996) mag_residual=42.157
+REFERENCE fid=A page=6 lut_absolute=27.878 lut_home=358.851 goal=29.027 filter_relative=26.937 angular_difference=2.090 error_360_percent=0.5805 mag_residual=42.157 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=29.027 filter=26.020 normal_diff=3.007 reverse_diff=55.047 home_yaw=42.57 current_yaw=-123.010 axis=quaternion_signed_0_360 raw_mag=(-48.0, -66.14999999999999, 36.449999999999996) mag_residual=42.157
+REFERENCE fid=E page=6 lut_absolute=27.878 lut_home=358.851 goal=29.027 filter_relative=26.020 angular_difference=3.007 error_360_percent=0.8352 mag_residual=42.157 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=29.588 filter=27.184 normal_diff=2.405 reverse_diff=56.772 home_yaw=42.54 current_yaw=-126.310 axis=quaternion_signed_0_360 raw_mag=(-49.949999999999996, -66.75, 35.1) mag_residual=33.325
+AXIS_CHECK fid=M goal=29.588 filter=20.327 normal_diff=9.261 reverse_diff=49.915 home_yaw=42.38 current_yaw=-131.210 axis=quaternion_signed_0_360 raw_mag=(-49.949999999999996, -66.75, 35.1) mag_residual=33.325
+AXIS_CHECK fid=A goal=29.588 filter=27.167 normal_diff=2.421 reverse_diff=56.756 home_yaw=42.23 current_yaw=-126.150 axis=quaternion_signed_0_360 raw_mag=(-49.949999999999996, -66.75, 35.1) mag_residual=33.325
+AXIS_CHECK fid=E goal=29.588 filter=26.292 normal_diff=3.296 reverse_diff=55.880 home_yaw=42.57 current_yaw=-123.110 axis=quaternion_signed_0_360 raw_mag=(-49.949999999999996, -66.75, 35.1) mag_residual=33.325
+AXIS_CHECK fid=C goal=53.439 filter=51.640 normal_diff=1.799 reverse_diff=105.079 home_yaw=42.54 current_yaw=-124.980 axis=quaternion_signed_0_360 raw_mag=(-47.1, -69.0, 17.4) mag_residual=39.909
+REFERENCE fid=C page=6 lut_absolute=52.291 lut_home=358.851 goal=53.439 filter_relative=51.640 angular_difference=1.799 error_360_percent=0.4997 mag_residual=39.909 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=53.439 filter=43.311 normal_diff=10.128 reverse_diff=96.750 home_yaw=42.38 current_yaw=-125.640 axis=quaternion_signed_0_360 raw_mag=(-47.1, -69.0, 17.4) mag_residual=39.909
+REFERENCE fid=M page=6 lut_absolute=52.291 lut_home=358.851 goal=53.439 filter_relative=43.311 angular_difference=10.128 error_360_percent=2.8133 mag_residual=39.909 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=53.439 filter=51.364 normal_diff=2.075 reverse_diff=104.803 home_yaw=42.23 current_yaw=-124.010 axis=quaternion_signed_0_360 raw_mag=(-47.1, -69.0, 17.4) mag_residual=39.909
+REFERENCE fid=A page=6 lut_absolute=52.291 lut_home=358.851 goal=53.439 filter_relative=51.364 angular_difference=2.075 error_360_percent=0.5765 mag_residual=39.909 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=53.439 filter=50.460 normal_diff=2.979 reverse_diff=103.899 home_yaw=42.57 current_yaw=-123.890 axis=quaternion_signed_0_360 raw_mag=(-47.1, -69.0, 17.4) mag_residual=39.909
+REFERENCE fid=E page=6 lut_absolute=52.291 lut_home=358.851 goal=53.439 filter_relative=50.460 angular_difference=2.979 error_360_percent=0.8275 mag_residual=39.909 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=54.980 filter=52.596 normal_diff=2.384 reverse_diff=107.576 home_yaw=42.54 current_yaw=-122.810 axis=quaternion_signed_0_360 raw_mag=(-46.65, -70.2, 16.2) mag_residual=32.497
+AXIS_CHECK fid=M goal=54.980 filter=42.020 normal_diff=12.960 reverse_diff=97.000 home_yaw=42.38 current_yaw=-124.870 axis=quaternion_signed_0_360 raw_mag=(-46.65, -70.2, 16.2) mag_residual=32.497
+AXIS_CHECK fid=A goal=54.980 filter=52.320 normal_diff=2.660 reverse_diff=107.300 home_yaw=42.23 current_yaw=-122.670 axis=quaternion_signed_0_360 raw_mag=(-46.65, -70.2, 16.2) mag_residual=32.497
+AXIS_CHECK fid=E goal=54.980 filter=51.420 normal_diff=3.560 reverse_diff=106.399 home_yaw=42.57 current_yaw=-121.390 axis=quaternion_signed_0_360 raw_mag=(-46.65, -70.2, 16.2) mag_residual=32.497
+AXIS_CHECK fid=C goal=55.018 filter=52.312 normal_diff=2.707 reverse_diff=107.330 home_yaw=42.54 current_yaw=-122.970 axis=quaternion_signed_0_360 raw_mag=(-45.9, -68.7, 16.2) mag_residual=42.278
+REFERENCE fid=C page=6 lut_absolute=53.870 lut_home=358.851 goal=55.018 filter_relative=52.312 angular_difference=2.707 error_360_percent=0.7518 mag_residual=42.278 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=55.018 filter=40.312 normal_diff=14.706 reverse_diff=95.331 home_yaw=42.38 current_yaw=-125.990 axis=quaternion_signed_0_360 raw_mag=(-45.9, -68.7, 16.2) mag_residual=42.278
+REFERENCE fid=M page=6 lut_absolute=53.870 lut_home=358.851 goal=55.018 filter_relative=40.312 angular_difference=14.706 error_360_percent=4.0851 mag_residual=42.278 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=55.018 filter=52.025 normal_diff=2.993 reverse_diff=107.044 home_yaw=42.23 current_yaw=-122.930 axis=quaternion_signed_0_360 raw_mag=(-45.9, -68.7, 16.2) mag_residual=42.278
+REFERENCE fid=A page=6 lut_absolute=53.870 lut_home=358.851 goal=55.018 filter_relative=52.025 angular_difference=2.993 error_360_percent=0.8315 mag_residual=42.278 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=55.018 filter=51.091 normal_diff=3.927 reverse_diff=106.109 home_yaw=42.57 current_yaw=-121.250 axis=quaternion_signed_0_360 raw_mag=(-45.9, -68.7, 16.2) mag_residual=42.278
+REFERENCE fid=E page=6 lut_absolute=53.870 lut_home=358.851 goal=55.018 filter_relative=51.091 angular_difference=3.927 error_360_percent=1.0910 mag_residual=42.278 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=54.121 filter=52.767 normal_diff=1.354 reverse_diff=106.888 home_yaw=42.54 current_yaw=-122.780 axis=quaternion_signed_0_360 raw_mag=(-44.699999999999996, -68.55, 17.25) mag_residual=43.995
+AXIS_CHECK fid=M goal=54.121 filter=39.079 normal_diff=15.041 reverse_diff=93.200 home_yaw=42.38 current_yaw=-126.050 axis=quaternion_signed_0_360 raw_mag=(-44.699999999999996, -68.55, 17.25) mag_residual=43.995
+AXIS_CHECK fid=A goal=54.121 filter=52.466 normal_diff=1.654 reverse_diff=106.587 home_yaw=42.23 current_yaw=-122.720 axis=quaternion_signed_0_360 raw_mag=(-44.699999999999996, -68.55, 17.25) mag_residual=43.995
+AXIS_CHECK fid=E goal=54.121 filter=51.571 normal_diff=2.550 reverse_diff=105.692 home_yaw=42.57 current_yaw=-121.050 axis=quaternion_signed_0_360 raw_mag=(-44.699999999999996, -68.55, 17.25) mag_residual=43.995
+AXIS_CHECK fid=C goal=60.019 filter=59.781 normal_diff=0.238 reverse_diff=119.801 home_yaw=42.54 current_yaw=-122.620 axis=quaternion_signed_0_360 raw_mag=(-46.05, -69.3, 11.7) mag_residual=41.109
+REFERENCE fid=C page=6 lut_absolute=58.871 lut_home=358.851 goal=60.019 filter_relative=59.781 angular_difference=0.238 error_360_percent=0.0660 mag_residual=41.109 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=60.019 filter=44.659 normal_diff=15.361 reverse_diff=104.678 home_yaw=42.38 current_yaw=-125.030 axis=quaternion_signed_0_360 raw_mag=(-46.05, -69.3, 11.7) mag_residual=41.109
+REFERENCE fid=M page=6 lut_absolute=58.871 lut_home=358.851 goal=60.019 filter_relative=44.659 angular_difference=15.361 error_360_percent=4.2668 mag_residual=41.109 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=60.019 filter=59.460 normal_diff=0.559 reverse_diff=119.479 home_yaw=42.23 current_yaw=-122.440 axis=quaternion_signed_0_360 raw_mag=(-46.05, -69.3, 11.7) mag_residual=41.109
+REFERENCE fid=A page=6 lut_absolute=58.871 lut_home=358.851 goal=60.019 filter_relative=59.460 angular_difference=0.559 error_360_percent=0.1553 mag_residual=41.109 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=60.019 filter=58.458 normal_diff=1.561 reverse_diff=118.477 home_yaw=42.57 current_yaw=-121.350 axis=quaternion_signed_0_360 raw_mag=(-46.05, -69.3, 11.7) mag_residual=41.109
+REFERENCE fid=E page=6 lut_absolute=58.871 lut_home=358.851 goal=60.019 filter_relative=58.458 angular_difference=1.561 error_360_percent=0.4336 mag_residual=41.109 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=84.190 filter=86.774 normal_diff=2.584 reverse_diff=170.964 home_yaw=42.54 current_yaw=-123.710 axis=quaternion_signed_0_360 raw_mag=(-50.699999999999996, -75.14999999999999, -6.1499999999999995) mag_residual=47.793
+AXIS_CHECK fid=M goal=84.190 filter=69.164 normal_diff=15.025 reverse_diff=153.354 home_yaw=42.38 current_yaw=-122.820 axis=quaternion_signed_0_360 raw_mag=(-50.699999999999996, -75.14999999999999, -6.1499999999999995) mag_residual=47.793
+AXIS_CHECK fid=A goal=84.190 filter=86.557 normal_diff=2.367 reverse_diff=170.747 home_yaw=42.23 current_yaw=-123.600 axis=quaternion_signed_0_360 raw_mag=(-50.699999999999996, -75.14999999999999, -6.1499999999999995) mag_residual=47.793
+AXIS_CHECK fid=E goal=84.190 filter=85.301 normal_diff=1.111 reverse_diff=169.490 home_yaw=42.57 current_yaw=-123.500 axis=quaternion_signed_0_360 raw_mag=(-50.699999999999996, -75.14999999999999, -6.1499999999999995) mag_residual=47.793
+AXIS_CHECK fid=C goal=83.814 filter=86.969 normal_diff=3.156 reverse_diff=170.783 home_yaw=42.54 current_yaw=-123.870 axis=quaternion_signed_0_360 raw_mag=(-49.199999999999996, -74.85, -6.45) mag_residual=50.149
+REFERENCE fid=C page=6 lut_absolute=82.665 lut_home=358.851 goal=83.814 filter_relative=86.969 angular_difference=3.156 error_360_percent=0.8766 mag_residual=50.149 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=83.814 filter=67.599 normal_diff=16.214 reverse_diff=151.413 home_yaw=42.38 current_yaw=-122.900 axis=quaternion_signed_0_360 raw_mag=(-49.199999999999996, -74.85, -6.45) mag_residual=50.149
+REFERENCE fid=M page=6 lut_absolute=82.665 lut_home=358.851 goal=83.814 filter_relative=67.599 angular_difference=16.214 error_360_percent=4.5040 mag_residual=50.149 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=83.814 filter=86.719 normal_diff=2.906 reverse_diff=170.533 home_yaw=42.23 current_yaw=-123.770 axis=quaternion_signed_0_360 raw_mag=(-49.199999999999996, -74.85, -6.45) mag_residual=50.149
+REFERENCE fid=A page=6 lut_absolute=82.665 lut_home=358.851 goal=83.814 filter_relative=86.719 angular_difference=2.906 error_360_percent=0.8072 mag_residual=50.149 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=83.814 filter=85.519 normal_diff=1.705 reverse_diff=169.332 home_yaw=42.57 current_yaw=-123.720 axis=quaternion_signed_0_360 raw_mag=(-49.199999999999996, -74.85, -6.45) mag_residual=50.149
+REFERENCE fid=E page=6 lut_absolute=82.665 lut_home=358.851 goal=83.814 filter_relative=85.519 angular_difference=1.705 error_360_percent=0.4737 mag_residual=50.149 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=81.814 filter=85.212 normal_diff=3.397 reverse_diff=167.026 home_yaw=42.54 current_yaw=-123.660 axis=quaternion_signed_0_360 raw_mag=(-49.8, -75.0, -4.05) mag_residual=45.574
+AXIS_CHECK fid=M goal=81.814 filter=64.711 normal_diff=17.103 reverse_diff=146.525 home_yaw=42.38 current_yaw=-123.240 axis=quaternion_signed_0_360 raw_mag=(-49.8, -75.0, -4.05) mag_residual=45.574
+AXIS_CHECK fid=A goal=81.814 filter=84.976 normal_diff=3.162 reverse_diff=166.790 home_yaw=42.23 current_yaw=-123.500 axis=quaternion_signed_0_360 raw_mag=(-49.8, -75.0, -4.05) mag_residual=45.574
+AXIS_CHECK fid=E goal=81.814 filter=83.813 normal_diff=1.999 reverse_diff=165.627 home_yaw=42.57 current_yaw=-123.480 axis=quaternion_signed_0_360 raw_mag=(-49.8, -75.0, -4.05) mag_residual=45.574
+AXIS_CHECK fid=C goal=0.970 filter=0.029 normal_diff=0.941 reverse_diff=0.999 home_yaw=42.54 current_yaw=41.890 axis=quaternion_signed_0_360 raw_mag=(-57.449999999999996, -63.9, 54.6) mag_residual=41.087
+REFERENCE fid=C page=6 lut_absolute=359.821 lut_home=358.851 goal=0.970 filter_relative=0.029 angular_difference=0.941 error_360_percent=0.2614 mag_residual=41.087 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=0.970 filter=359.632 normal_diff=1.337 reverse_diff=0.602 home_yaw=42.38 current_yaw=46.450 axis=quaternion_signed_0_360 raw_mag=(-57.449999999999996, -63.9, 54.6) mag_residual=41.087
+REFERENCE fid=M page=6 lut_absolute=359.821 lut_home=358.851 goal=0.970 filter_relative=359.632 angular_difference=1.337 error_360_percent=0.3715 mag_residual=41.087 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=0.970 filter=0.036 normal_diff=0.934 reverse_diff=1.006 home_yaw=42.23 current_yaw=41.400 axis=quaternion_signed_0_360 raw_mag=(-57.449999999999996, -63.9, 54.6) mag_residual=41.087
+REFERENCE fid=A page=6 lut_absolute=359.821 lut_home=358.851 goal=0.970 filter_relative=0.036 angular_difference=0.934 error_360_percent=0.2594 mag_residual=41.087 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=0.970 filter=359.957 normal_diff=1.013 reverse_diff=0.927 home_yaw=42.57 current_yaw=42.860 axis=quaternion_signed_0_360 raw_mag=(-57.449999999999996, -63.9, 54.6) mag_residual=41.087
+REFERENCE fid=E page=6 lut_absolute=359.821 lut_home=358.851 goal=0.970 filter_relative=359.957 angular_difference=1.013 error_360_percent=0.2814 mag_residual=41.087 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=0.295 filter=359.822 normal_diff=0.473 reverse_diff=0.116 home_yaw=42.54 current_yaw=41.770 axis=quaternion_signed_0_360 raw_mag=(-59.099999999999994, -63.75, 54.0) mag_residual=33.101
+AXIS_CHECK fid=M goal=0.295 filter=359.976 normal_diff=0.318 reverse_diff=0.271 home_yaw=42.38 current_yaw=41.120 axis=quaternion_signed_0_360 raw_mag=(-59.099999999999994, -63.75, 54.0) mag_residual=33.101
+AXIS_CHECK fid=A goal=0.295 filter=359.845 normal_diff=0.449 reverse_diff=0.140 home_yaw=42.23 current_yaw=41.360 axis=quaternion_signed_0_360 raw_mag=(-59.099999999999994, -63.75, 54.0) mag_residual=33.101
+AXIS_CHECK fid=E goal=0.295 filter=359.856 normal_diff=0.439 reverse_diff=0.151 home_yaw=42.57 current_yaw=42.610 axis=quaternion_signed_0_360 raw_mag=(-59.099999999999994, -63.75, 54.0) mag_residual=33.101
+AXIS_CHECK fid=C goal=1.149 filter=0.138 normal_diff=1.010 reverse_diff=1.287 home_yaw=42.54 current_yaw=40.610 axis=quaternion_signed_0_360 raw_mag=(-57.75, -63.3, 53.699999999999996) mag_residual=39.256
+REFERENCE fid=C page=7 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=0.138 angular_difference=1.010 error_360_percent=0.2807 mag_residual=39.256 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=1.149 filter=0.287 normal_diff=0.861 reverse_diff=1.436 home_yaw=42.38 current_yaw=40.080 axis=quaternion_signed_0_360 raw_mag=(-57.75, -63.3, 53.699999999999996) mag_residual=39.256
+REFERENCE fid=M page=7 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=0.287 angular_difference=0.861 error_360_percent=0.2393 mag_residual=39.256 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=1.149 filter=0.169 normal_diff=0.979 reverse_diff=1.318 home_yaw=42.23 current_yaw=40.430 axis=quaternion_signed_0_360 raw_mag=(-57.75, -63.3, 53.699999999999996) mag_residual=39.256
+REFERENCE fid=A page=7 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=0.169 angular_difference=0.979 error_360_percent=0.2721 mag_residual=39.256 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=1.149 filter=0.188 normal_diff=0.960 reverse_diff=1.337 home_yaw=42.57 current_yaw=41.580 axis=quaternion_signed_0_360 raw_mag=(-57.75, -63.3, 53.699999999999996) mag_residual=39.256
+REFERENCE fid=E page=7 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=0.188 angular_difference=0.960 error_360_percent=0.2667 mag_residual=39.256 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=187.260 filter=183.330 normal_diff=3.931 reverse_diff=10.590 home_yaw=42.54 current_yaw=-78.370 axis=quaternion_signed_0_360 raw_mag=(-102.45, -82.64999999999999, -1.5) mag_residual=73.014
+AXIS_CHECK fid=M goal=187.260 filter=183.538 normal_diff=3.722 reverse_diff=10.799 home_yaw=42.38 current_yaw=-76.550 axis=quaternion_signed_0_360 raw_mag=(-102.45, -82.64999999999999, -1.5) mag_residual=73.014
+AXIS_CHECK fid=A goal=187.260 filter=183.508 normal_diff=3.752 reverse_diff=10.769 home_yaw=42.23 current_yaw=-67.350 axis=quaternion_signed_0_360 raw_mag=(-102.45, -82.64999999999999, -1.5) mag_residual=73.014
+AXIS_CHECK fid=E goal=187.260 filter=182.841 normal_diff=4.420 reverse_diff=10.101 home_yaw=42.57 current_yaw=-102.150 axis=quaternion_signed_0_360 raw_mag=(-102.45, -82.64999999999999, -1.5) mag_residual=73.014
+AXIS_CHECK fid=C goal=186.749 filter=183.978 normal_diff=2.771 reverse_diff=10.728 home_yaw=42.54 current_yaw=-60.210 axis=quaternion_signed_0_360 raw_mag=(-104.1, -83.55, -3.15) mag_residual=61.058
+REFERENCE fid=C page=7 lut_absolute=185.601 lut_home=358.851 goal=186.749 filter_relative=183.978 angular_difference=2.771 error_360_percent=0.7697 mag_residual=61.058 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=186.749 filter=184.226 normal_diff=2.524 reverse_diff=10.975 home_yaw=42.38 current_yaw=-55.870 axis=quaternion_signed_0_360 raw_mag=(-104.1, -83.55, -3.15) mag_residual=61.058
+REFERENCE fid=M page=7 lut_absolute=185.601 lut_home=358.851 goal=186.749 filter_relative=184.226 angular_difference=2.524 error_360_percent=0.7010 mag_residual=61.058 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=186.749 filter=184.215 normal_diff=2.535 reverse_diff=10.964 home_yaw=42.23 current_yaw=-45.630 axis=quaternion_signed_0_360 raw_mag=(-104.1, -83.55, -3.15) mag_residual=61.058
+REFERENCE fid=A page=7 lut_absolute=185.601 lut_home=358.851 goal=186.749 filter_relative=184.215 angular_difference=2.535 error_360_percent=0.7041 mag_residual=61.058 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=186.749 filter=183.604 normal_diff=3.145 reverse_diff=10.354 home_yaw=42.57 current_yaw=-75.070 axis=quaternion_signed_0_360 raw_mag=(-104.1, -83.55, -3.15) mag_residual=61.058
+REFERENCE fid=E page=7 lut_absolute=185.601 lut_home=358.851 goal=186.749 filter_relative=183.604 angular_difference=3.145 error_360_percent=0.8736 mag_residual=61.058 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=187.428 filter=184.900 normal_diff=2.529 reverse_diff=12.328 home_yaw=42.54 current_yaw=-40.300 axis=quaternion_signed_0_360 raw_mag=(-104.39999999999999, -83.25, -2.4) mag_residual=62.460
+AXIS_CHECK fid=M goal=187.428 filter=185.139 normal_diff=2.290 reverse_diff=12.567 home_yaw=42.38 current_yaw=-35.800 axis=quaternion_signed_0_360 raw_mag=(-104.39999999999999, -83.25, -2.4) mag_residual=62.460
+AXIS_CHECK fid=A goal=187.428 filter=185.107 normal_diff=2.322 reverse_diff=12.535 home_yaw=42.23 current_yaw=-26.400 axis=quaternion_signed_0_360 raw_mag=(-104.39999999999999, -83.25, -2.4) mag_residual=62.460
+AXIS_CHECK fid=E goal=187.428 filter=184.809 normal_diff=2.620 reverse_diff=12.237 home_yaw=42.57 current_yaw=-40.250 axis=quaternion_signed_0_360 raw_mag=(-104.39999999999999, -83.25, -2.4) mag_residual=62.460
+AXIS_CHECK fid=C goal=188.555 filter=185.097 normal_diff=3.458 reverse_diff=13.651 home_yaw=42.54 current_yaw=-34.010 axis=quaternion_signed_0_360 raw_mag=(-104.55, -81.45, -1.2) mag_residual=73.572
+REFERENCE fid=C page=7 lut_absolute=187.406 lut_home=358.851 goal=188.555 filter_relative=185.097 angular_difference=3.458 error_360_percent=0.9605 mag_residual=73.572 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=188.555 filter=185.362 normal_diff=3.192 reverse_diff=13.917 home_yaw=42.38 current_yaw=-28.420 axis=quaternion_signed_0_360 raw_mag=(-104.55, -81.45, -1.2) mag_residual=73.572
+REFERENCE fid=M page=7 lut_absolute=187.406 lut_home=358.851 goal=188.555 filter_relative=185.362 angular_difference=3.192 error_360_percent=0.8868 mag_residual=73.572 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=188.555 filter=185.322 normal_diff=3.232 reverse_diff=13.877 home_yaw=42.23 current_yaw=-19.230 axis=quaternion_signed_0_360 raw_mag=(-104.55, -81.45, -1.2) mag_residual=73.572
+REFERENCE fid=A page=7 lut_absolute=187.406 lut_home=358.851 goal=188.555 filter_relative=185.322 angular_difference=3.232 error_360_percent=0.8979 mag_residual=73.572 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=188.555 filter=185.083 normal_diff=3.472 reverse_diff=13.637 home_yaw=42.57 current_yaw=-30.490 axis=quaternion_signed_0_360 raw_mag=(-104.55, -81.45, -1.2) mag_residual=73.572
+REFERENCE fid=E page=7 lut_absolute=187.406 lut_home=358.851 goal=188.555 filter_relative=185.083 angular_difference=3.472 error_360_percent=0.9645 mag_residual=73.572 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=5.719 filter=10.018 normal_diff=4.299 reverse_diff=15.737 home_yaw=42.54 current_yaw=-110.770 axis=quaternion_signed_0_360 raw_mag=(-55.5, -64.05, 49.65) mag_residual=39.811
+AXIS_CHECK fid=M goal=5.719 filter=7.465 normal_diff=1.746 reverse_diff=13.184 home_yaw=42.38 current_yaw=-91.310 axis=quaternion_signed_0_360 raw_mag=(-55.5, -64.05, 49.65) mag_residual=39.811
+AXIS_CHECK fid=A goal=5.719 filter=8.579 normal_diff=2.860 reverse_diff=14.297 home_yaw=42.23 current_yaw=-104.790 axis=quaternion_signed_0_360 raw_mag=(-55.5, -64.05, 49.65) mag_residual=39.811
+AXIS_CHECK fid=E goal=5.719 filter=5.060 normal_diff=0.659 reverse_diff=10.778 home_yaw=42.57 current_yaw=-23.780 axis=quaternion_signed_0_360 raw_mag=(-55.5, -64.05, 49.65) mag_residual=39.811
+AXIS_CHECK fid=C goal=1.149 filter=4.523 normal_diff=3.375 reverse_diff=5.672 home_yaw=42.54 current_yaw=2.880 axis=quaternion_signed_0_360 raw_mag=(-58.8, -63.0, 51.9) mag_residual=33.136
+REFERENCE fid=C page=7 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=4.523 angular_difference=3.375 error_360_percent=0.9374 mag_residual=33.136 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=1.149 filter=4.552 normal_diff=3.403 reverse_diff=5.700 home_yaw=42.38 current_yaw=4.900 axis=quaternion_signed_0_360 raw_mag=(-58.8, -63.0, 51.9) mag_residual=33.136
+REFERENCE fid=M page=7 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=4.552 angular_difference=3.403 error_360_percent=0.9453 mag_residual=33.136 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=1.149 filter=4.545 normal_diff=3.397 reverse_diff=5.694 home_yaw=42.23 current_yaw=2.640 axis=quaternion_signed_0_360 raw_mag=(-58.8, -63.0, 51.9) mag_residual=33.136
+REFERENCE fid=A page=7 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=4.545 angular_difference=3.397 error_360_percent=0.9435 mag_residual=33.136 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=1.149 filter=4.374 normal_diff=3.225 reverse_diff=5.522 home_yaw=42.57 current_yaw=1.850 axis=quaternion_signed_0_360 raw_mag=(-58.8, -63.0, 51.9) mag_residual=33.136
+REFERENCE fid=E page=7 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=4.374 angular_difference=3.225 error_360_percent=0.8959 mag_residual=33.136 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=3.477 filter=4.624 normal_diff=1.147 reverse_diff=8.102 home_yaw=42.54 current_yaw=4.640 axis=quaternion_signed_0_360 raw_mag=(-56.85, -61.949999999999996, 49.5) mag_residual=46.066
+AXIS_CHECK fid=M goal=3.477 filter=4.771 normal_diff=1.294 reverse_diff=8.249 home_yaw=42.38 current_yaw=2.870 axis=quaternion_signed_0_360 raw_mag=(-56.85, -61.949999999999996, 49.5) mag_residual=46.066
+AXIS_CHECK fid=A goal=3.477 filter=4.712 normal_diff=1.234 reverse_diff=8.189 home_yaw=42.23 current_yaw=1.660 axis=quaternion_signed_0_360 raw_mag=(-56.85, -61.949999999999996, 49.5) mag_residual=46.066
+AXIS_CHECK fid=E goal=3.477 filter=4.572 normal_diff=1.094 reverse_diff=8.049 home_yaw=42.57 current_yaw=-0.090 axis=quaternion_signed_0_360 raw_mag=(-56.85, -61.949999999999996, 49.5) mag_residual=46.066
+AXIS_CHECK fid=C goal=1.481 filter=5.225 normal_diff=3.744 reverse_diff=6.706 home_yaw=42.54 current_yaw=-22.090 axis=quaternion_signed_0_360 raw_mag=(-56.4, -63.15, 52.8) mag_residual=44.005
+REFERENCE fid=C page=7 lut_absolute=0.333 lut_home=358.851 goal=1.481 filter_relative=5.225 angular_difference=3.744 error_360_percent=1.0399 mag_residual=44.005 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=1.481 filter=5.376 normal_diff=3.895 reverse_diff=6.857 home_yaw=42.38 current_yaw=-21.630 axis=quaternion_signed_0_360 raw_mag=(-56.4, -63.15, 52.8) mag_residual=44.005
+REFERENCE fid=M page=7 lut_absolute=0.333 lut_home=358.851 goal=1.481 filter_relative=5.376 angular_difference=3.895 error_360_percent=1.0819 mag_residual=44.005 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=1.481 filter=5.336 normal_diff=3.855 reverse_diff=6.818 home_yaw=42.23 current_yaw=-25.920 axis=quaternion_signed_0_360 raw_mag=(-56.4, -63.15, 52.8) mag_residual=44.005
+REFERENCE fid=A page=7 lut_absolute=0.333 lut_home=358.851 goal=1.481 filter_relative=5.336 angular_difference=3.855 error_360_percent=1.0708 mag_residual=44.005 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=1.481 filter=5.107 normal_diff=3.626 reverse_diff=6.588 home_yaw=42.57 current_yaw=-20.560 axis=quaternion_signed_0_360 raw_mag=(-56.4, -63.15, 52.8) mag_residual=44.005
+REFERENCE fid=E page=7 lut_absolute=0.333 lut_home=358.851 goal=1.481 filter_relative=5.107 angular_difference=3.626 error_360_percent=1.0072 mag_residual=44.005 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=1.149 filter=4.800 normal_diff=3.652 reverse_diff=5.949 home_yaw=42.54 current_yaw=-6.880 axis=quaternion_signed_0_360 raw_mag=(-57.9, -62.699999999999996, 51.75) mag_residual=38.013
+AXIS_CHECK fid=M goal=1.149 filter=4.803 normal_diff=3.655 reverse_diff=5.952 home_yaw=42.38 current_yaw=-1.850 axis=quaternion_signed_0_360 raw_mag=(-57.9, -62.699999999999996, 51.75) mag_residual=38.013
+AXIS_CHECK fid=A goal=1.149 filter=4.830 normal_diff=3.681 reverse_diff=5.979 home_yaw=42.23 current_yaw=-6.340 axis=quaternion_signed_0_360 raw_mag=(-57.9, -62.699999999999996, 51.75) mag_residual=38.013
+AXIS_CHECK fid=E goal=1.149 filter=4.618 normal_diff=3.469 reverse_diff=5.767 home_yaw=42.57 current_yaw=-4.690 axis=quaternion_signed_0_360 raw_mag=(-57.9, -62.699999999999996, 51.75) mag_residual=38.013
+AXIS_CHECK fid=C goal=1.149 filter=4.260 normal_diff=3.111 reverse_diff=5.408 home_yaw=42.54 current_yaw=9.000 axis=quaternion_signed_0_360 raw_mag=(-57.3, -61.5, 51.9) mag_residual=46.883
+REFERENCE fid=C page=8 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=4.260 angular_difference=3.111 error_360_percent=0.8642 mag_residual=46.883 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=1.149 filter=4.432 normal_diff=3.283 reverse_diff=5.581 home_yaw=42.38 current_yaw=9.060 axis=quaternion_signed_0_360 raw_mag=(-57.3, -61.5, 51.9) mag_residual=46.883
+REFERENCE fid=M page=8 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=4.432 angular_difference=3.283 error_360_percent=0.9120 mag_residual=46.883 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=1.149 filter=4.388 normal_diff=3.239 reverse_diff=5.536 home_yaw=42.23 current_yaw=7.380 axis=quaternion_signed_0_360 raw_mag=(-57.3, -61.5, 51.9) mag_residual=46.883
+REFERENCE fid=A page=8 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=4.388 angular_difference=3.239 error_360_percent=0.8998 mag_residual=46.883 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=1.149 filter=4.302 normal_diff=3.153 reverse_diff=5.450 home_yaw=42.57 current_yaw=3.590 axis=quaternion_signed_0_360 raw_mag=(-57.3, -61.5, 51.9) mag_residual=46.883
+REFERENCE fid=E page=8 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=4.302 angular_difference=3.153 error_360_percent=0.8759 mag_residual=46.883 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=3.215 filter=3.897 normal_diff=0.683 reverse_diff=7.112 home_yaw=42.54 current_yaw=23.080 axis=quaternion_signed_0_360 raw_mag=(-56.85, -63.9, 51.0) mag_residual=35.881
+AXIS_CHECK fid=M goal=3.215 filter=3.702 normal_diff=0.487 reverse_diff=6.917 home_yaw=42.38 current_yaw=26.170 axis=quaternion_signed_0_360 raw_mag=(-56.85, -63.9, 51.0) mag_residual=35.881
+AXIS_CHECK fid=A goal=3.215 filter=3.862 normal_diff=0.647 reverse_diff=7.076 home_yaw=42.23 current_yaw=23.930 axis=quaternion_signed_0_360 raw_mag=(-56.85, -63.9, 51.0) mag_residual=35.881
+AXIS_CHECK fid=E goal=3.215 filter=4.002 normal_diff=0.787 reverse_diff=7.217 home_yaw=42.57 current_yaw=12.200 axis=quaternion_signed_0_360 raw_mag=(-56.85, -63.9, 51.0) mag_residual=35.881
+AXIS_CHECK fid=C goal=2.783 filter=3.477 normal_diff=0.694 reverse_diff=6.260 home_yaw=42.54 current_yaw=31.790 axis=quaternion_signed_0_360 raw_mag=(-57.15, -63.599999999999994, 51.0) mag_residual=36.055
+REFERENCE fid=C page=8 lut_absolute=1.634 lut_home=358.851 goal=2.783 filter_relative=3.477 angular_difference=0.694 error_360_percent=0.1929 mag_residual=36.055 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=2.783 filter=3.389 normal_diff=0.607 reverse_diff=6.172 home_yaw=42.38 current_yaw=30.610 axis=quaternion_signed_0_360 raw_mag=(-57.15, -63.599999999999994, 51.0) mag_residual=36.055
+REFERENCE fid=M page=8 lut_absolute=1.634 lut_home=358.851 goal=2.783 filter_relative=3.389 angular_difference=0.607 error_360_percent=0.1685 mag_residual=36.055 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=2.783 filter=3.456 normal_diff=0.674 reverse_diff=6.239 home_yaw=42.23 current_yaw=30.780 axis=quaternion_signed_0_360 raw_mag=(-57.15, -63.599999999999994, 51.0) mag_residual=36.055
+REFERENCE fid=A page=8 lut_absolute=1.634 lut_home=358.851 goal=2.783 filter_relative=3.456 angular_difference=0.674 error_360_percent=0.1871 mag_residual=36.055 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=2.783 filter=3.498 normal_diff=0.716 reverse_diff=6.281 home_yaw=42.57 current_yaw=21.410 axis=quaternion_signed_0_360 raw_mag=(-57.15, -63.599999999999994, 51.0) mag_residual=36.055
+REFERENCE fid=E page=8 lut_absolute=1.634 lut_home=358.851 goal=2.783 filter_relative=3.498 angular_difference=0.716 error_360_percent=0.1988 mag_residual=36.055 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=1.359 filter=3.637 normal_diff=2.278 reverse_diff=4.996 home_yaw=42.54 current_yaw=30.460 axis=quaternion_signed_0_360 raw_mag=(-56.85, -63.599999999999994, 52.8) mag_residual=39.950
+AXIS_CHECK fid=M goal=1.359 filter=3.802 normal_diff=2.443 reverse_diff=5.160 home_yaw=42.38 current_yaw=28.210 axis=quaternion_signed_0_360 raw_mag=(-56.85, -63.599999999999994, 52.8) mag_residual=39.950
+AXIS_CHECK fid=A goal=1.359 filter=3.710 normal_diff=2.351 reverse_diff=5.069 home_yaw=42.23 current_yaw=29.150 axis=quaternion_signed_0_360 raw_mag=(-56.85, -63.599999999999994, 52.8) mag_residual=39.950
+AXIS_CHECK fid=E goal=1.359 filter=3.540 normal_diff=2.182 reverse_diff=4.899 home_yaw=42.57 current_yaw=25.680 axis=quaternion_signed_0_360 raw_mag=(-56.85, -63.599999999999994, 52.8) mag_residual=39.950
+AXIS_CHECK fid=C goal=3.419 filter=3.912 normal_diff=0.493 reverse_diff=7.331 home_yaw=42.54 current_yaw=20.700 axis=quaternion_signed_0_360 raw_mag=(-56.1, -64.35, 51.75) mag_residual=38.526
+REFERENCE fid=C page=8 lut_absolute=2.270 lut_home=358.851 goal=3.419 filter_relative=3.912 angular_difference=0.493 error_360_percent=0.1370 mag_residual=38.526 jump_warnings=2 rejected=0
+FILT C count=1000 page=8 target=0.0 yaw=20.70 home=42.54 measured=3.91 plotted=200 latest=0.13701924654852526
+AXIS_CHECK fid=M goal=3.419 filter=4.108 normal_diff=0.689 reverse_diff=7.527 home_yaw=42.38 current_yaw=17.080 axis=quaternion_signed_0_360 raw_mag=(-56.1, -64.35, 51.75) mag_residual=38.526
+REFERENCE fid=M page=8 lut_absolute=2.270 lut_home=358.851 goal=3.419 filter_relative=4.108 angular_difference=0.689 error_360_percent=0.1913 mag_residual=38.526 jump_warnings=2 rejected=0
+FILT M count=1000 page=8 target=0.0 yaw=17.08 home=42.38 measured=4.11 plotted=200 latest=0.19132046177826428
+AXIS_CHECK fid=A goal=3.419 filter=4.001 normal_diff=0.582 reverse_diff=7.420 home_yaw=42.23 current_yaw=18.270 axis=quaternion_signed_0_360 raw_mag=(-56.1, -64.35, 51.75) mag_residual=38.526
+REFERENCE fid=A page=8 lut_absolute=2.270 lut_home=358.851 goal=3.419 filter_relative=4.001 angular_difference=0.582 error_360_percent=0.1617 mag_residual=38.526 jump_warnings=2 rejected=0
+FILT A count=1000 page=8 target=0.0 yaw=18.27 home=42.23 measured=4.00 plotted=200 latest=0.16165000821905393
+AXIS_CHECK fid=E goal=3.419 filter=3.935 normal_diff=0.516 reverse_diff=7.355 home_yaw=42.57 current_yaw=13.910 axis=quaternion_signed_0_360 raw_mag=(-56.1, -64.35, 51.75) mag_residual=38.526
+REFERENCE fid=E page=8 lut_absolute=2.270 lut_home=358.851 goal=3.419 filter_relative=3.935 angular_difference=0.516 error_360_percent=0.1435 mag_residual=38.526 jump_warnings=2 rejected=0
+FILT E count=1000 page=8 target=0.0 yaw=13.91 home=42.57 measured=3.94 plotted=200 latest=0.14345548833352792
+AXIS_CHECK fid=C goal=12.921 filter=12.587 normal_diff=0.334 reverse_diff=25.508 home_yaw=42.54 current_yaw=-122.640 axis=quaternion_signed_0_360 raw_mag=(-53.1, -66.14999999999999, 45.449999999999996) mag_residual=36.770
+AXIS_CHECK fid=M goal=12.921 filter=13.115 normal_diff=0.194 reverse_diff=26.036 home_yaw=42.38 current_yaw=-114.070 axis=quaternion_signed_0_360 raw_mag=(-53.1, -66.14999999999999, 45.449999999999996) mag_residual=36.770
+AXIS_CHECK fid=A goal=12.921 filter=12.516 normal_diff=0.405 reverse_diff=25.437 home_yaw=42.23 current_yaw=-124.090 axis=quaternion_signed_0_360 raw_mag=(-53.1, -66.14999999999999, 45.449999999999996) mag_residual=36.770
+AXIS_CHECK fid=E goal=12.921 filter=12.284 normal_diff=0.637 reverse_diff=25.205 home_yaw=42.57 current_yaw=-115.160 axis=quaternion_signed_0_360 raw_mag=(-53.1, -66.14999999999999, 45.449999999999996) mag_residual=36.770
+AXIS_CHECK fid=C goal=21.552 filter=19.054 normal_diff=2.499 reverse_diff=40.606 home_yaw=42.54 current_yaw=-128.410 axis=quaternion_signed_0_360 raw_mag=(-49.949999999999996, -66.45, 41.699999999999996) mag_residual=41.823
+REFERENCE fid=C page=9 lut_absolute=20.404 lut_home=358.851 goal=21.552 filter_relative=19.054 angular_difference=2.499 error_360_percent=0.6941 mag_residual=41.823 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=21.552 filter=17.953 normal_diff=3.599 reverse_diff=39.505 home_yaw=42.38 current_yaw=-111.200 axis=quaternion_signed_0_360 raw_mag=(-49.949999999999996, -66.45, 41.699999999999996) mag_residual=41.823
+REFERENCE fid=M page=9 lut_absolute=20.404 lut_home=358.851 goal=21.552 filter_relative=17.953 angular_difference=3.599 error_360_percent=0.9998 mag_residual=41.823 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=21.552 filter=18.774 normal_diff=2.778 reverse_diff=40.327 home_yaw=42.23 current_yaw=-128.680 axis=quaternion_signed_0_360 raw_mag=(-49.949999999999996, -66.45, 41.699999999999996) mag_residual=41.823
+REFERENCE fid=A page=9 lut_absolute=20.404 lut_home=358.851 goal=21.552 filter_relative=18.774 angular_difference=2.778 error_360_percent=0.7717 mag_residual=41.823 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=21.552 filter=18.096 normal_diff=3.457 reverse_diff=39.648 home_yaw=42.57 current_yaw=-124.420 axis=quaternion_signed_0_360 raw_mag=(-49.949999999999996, -66.45, 41.699999999999996) mag_residual=41.823
+REFERENCE fid=E page=9 lut_absolute=20.404 lut_home=358.851 goal=21.552 filter_relative=18.096 angular_difference=3.457 error_360_percent=0.9602 mag_residual=41.823 jump_warnings=2 rejected=0
+AXIS_CHECK fid=C goal=21.037 filter=20.129 normal_diff=0.908 reverse_diff=41.166 home_yaw=42.54 current_yaw=-124.030 axis=quaternion_signed_0_360 raw_mag=(-50.55, -66.14999999999999, 41.85) mag_residual=41.904
+AXIS_CHECK fid=M goal=21.037 filter=16.861 normal_diff=4.176 reverse_diff=37.898 home_yaw=42.38 current_yaw=-105.370 axis=quaternion_signed_0_360 raw_mag=(-50.55, -66.14999999999999, 41.85) mag_residual=41.904
+AXIS_CHECK fid=A goal=21.037 filter=20.212 normal_diff=0.825 reverse_diff=41.248 home_yaw=42.23 current_yaw=-124.530 axis=quaternion_signed_0_360 raw_mag=(-50.55, -66.14999999999999, 41.85) mag_residual=41.904
+AXIS_CHECK fid=E goal=21.037 filter=19.393 normal_diff=1.644 reverse_diff=40.430 home_yaw=42.57 current_yaw=-120.210 axis=quaternion_signed_0_360 raw_mag=(-50.55, -66.14999999999999, 41.85) mag_residual=41.904
+AXIS_CHECK fid=C goal=1.149 filter=1.418 normal_diff=0.270 reverse_diff=2.567 home_yaw=42.54 current_yaw=39.770 axis=quaternion_signed_0_360 raw_mag=(-58.05, -62.25, 54.0) mag_residual=43.977
+REFERENCE fid=C page=9 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=1.418 angular_difference=0.270 error_360_percent=0.0749 mag_residual=43.977 jump_warnings=2 rejected=0
+AXIS_CHECK fid=M goal=1.149 filter=1.528 normal_diff=0.379 reverse_diff=2.677 home_yaw=42.38 current_yaw=37.820 axis=quaternion_signed_0_360 raw_mag=(-58.05, -62.25, 54.0) mag_residual=43.977
+REFERENCE fid=M page=9 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=1.528 angular_difference=0.379 error_360_percent=0.1054 mag_residual=43.977 jump_warnings=2 rejected=0
+AXIS_CHECK fid=A goal=1.149 filter=1.451 normal_diff=0.302 reverse_diff=2.600 home_yaw=42.23 current_yaw=39.080 axis=quaternion_signed_0_360 raw_mag=(-58.05, -62.25, 54.0) mag_residual=43.977
+REFERENCE fid=A page=9 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=1.451 angular_difference=0.302 error_360_percent=0.0840 mag_residual=43.977 jump_warnings=2 rejected=0
+AXIS_CHECK fid=E goal=1.149 filter=1.414 normal_diff=0.266 reverse_diff=2.563 home_yaw=42.57 current_yaw=38.740 axis=quaternion_signed_0_360 raw_mag=(-58.05, -62.25, 54.0) mag_residual=43.977
+REFERENCE fid=E page=9 lut_absolute=0.000 lut_home=358.851 goal=1.149 filter_relative=1.414 angular_difference=0.266 error_360_percent=0.0739 mag_residual=43.977 jump_warnings=2 rejected=0
+FILT C count=2000 page=11 target=0.0 yaw=-120.86 home=42.54 measured=15.42 plotted=200 latest=0.3857509955985468
+FILT M count=2000 page=11 target=0.0 yaw=-120.33 home=42.38 measured=15.77 plotted=200 latest=0.43452237346746375
+FILT A count=2000 page=11 target=0.0 yaw=-121.53 home=42.23 measured=15.45 plotted=200 latest=0.4036211467092225
+FILT E count=2000 page=11 target=0.0 yaw=-115.28 home=42.57 measured=14.91 plotted=200 latest=0.4053291146229772
+FILT C count=3000 page=11 target=0.0 yaw=-85.62 home=42.54 measured=6.75 plotted=200 latest=0.3857509955985468
+FILT M count=3000 page=11 target=0.0 yaw=-88.05 home=42.38 measured=7.22 plotted=200 latest=0.43452237346746375
+FILT A count=3000 page=11 target=0.0 yaw=-86.13 home=42.23 measured=6.83 plotted=200 latest=0.4036211467092225
+FILT E count=3000 page=11 target=0.0 yaw=-74.19 home=42.57 measured=6.53 plotted=200 latest=0.4053291146229772
